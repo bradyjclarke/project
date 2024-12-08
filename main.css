@@ -32,7 +32,16 @@ header {
     border-radius: 10px; /* Optional: adds rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for aesthetics */
 }
-
+h2 {
+    font-weight: bold;
+}
+hr {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+.content-section {
+    margin: 20px;
+}
 nav ul {
     list-style: none;
     text-align: center;
