@@ -35,10 +35,7 @@ header {
 h2 {
     font-weight: bold;
 }
-hr {
-    margin: 20px 0;
-    border: 1px solid #ccc;
-}
+
 .content-section {
     margin: 20px;
 }
