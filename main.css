@@ -18,7 +18,7 @@ header {
     background: #007BFF;
     padding: 1rem 0;
 }
-}
+
 .image-container {
     display: flex;
     justify-content: center; /* Centers horizontally */
@@ -29,6 +29,12 @@ header {
     height: auto; /* Maintains aspect ratio */
     border-radius: 10px; /* Optional: adds rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for aesthetics */
+}
+h2 {
+    font-weight: bold;
+}
+.content-section {
+    margin: 20px;
 }
 
 nav ul {
@@ -46,6 +52,60 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+}
+.hero {
+    background: #28a745;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+section {
+    padding: 50px 20px;
+    margin: 20px 0;
+}
+
+.about, .services, .contact {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    color: #007BFF;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #0056b3;
 }
 
 .products-section {
