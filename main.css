@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Basic Layout */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -21,17 +20,16 @@ header {
 }
 .image-container {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 100vh; /* Full viewport height for centering */
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
 }
 
-/* Style for the image */
 .centered-image {
-    max-width: 50%; /* Shrinks image width to 50% of its container */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 10px; /* Optional: adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for aesthetics */
+    max-width: 50%; 
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 h2 {
     font-weight: bold;
@@ -113,8 +111,8 @@ h2 {
 }
 
 .product-card img {
-    max-width: 30%; /* Shrinks images to 80% of their container width */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 30%; 
+    height: auto; 
     margin: 0 auto;
     display: block;
     border-radius: 8px;
@@ -127,8 +125,8 @@ h2 {
     color: #007BFF;
 }
 .social-media img {
-    width: 25%; /* Reduces the image width to 50% of its original size */
-    height: auto; /* Maintains the aspect ratio */
+    width: 25%;
+    height: auto; 
 }
 form input, form textarea {
     width: 100%;
