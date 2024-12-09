@@ -126,6 +126,9 @@ h2 {
     font-size: 1.2rem;
     color: #007BFF;
 }
+.social-media img {
+    width: 50%; /* Reduces the image width to 50% of its original size */
+    height: auto; /* Maintains the aspect ratio */
 form input, form textarea {
     width: 100%;
     padding: 10px;
