@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 .product-card img {
-    max-width: 80%; /* Shrinks images to 80% of their container width */
+    max-width: 30%; /* Shrinks images to 80% of their container width */
     height: auto; /* Maintains aspect ratio */
     margin: 0 auto;
     display: block;
