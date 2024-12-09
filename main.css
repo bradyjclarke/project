@@ -13,7 +13,9 @@ body {
     text-align: center;
     text-color: #0008a3;
 }
-
+nav { 
+    text-color:#00000;
+}
 header {
     background: #007BFF;
     padding: 1rem 0;
