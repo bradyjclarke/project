@@ -1,29 +1,32 @@
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* General Layout */
+
+/* Basic Layout */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #c0e5f9;
     text-align: center;
-    color: #0008a3;
+    text-color: #0008a3;
 }
 nav { 
     text-color:#fffff;
-
+}
 header {
     background: #007BFF;
     padding: 1rem 0;
 }
-
 .image-container {
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
     height: 100vh; /* Full viewport height for centering */
+}
+
+/* Style for the image */
 .centered-image {
     max-width: 50%; /* Shrinks image width to 50% of its container */
     height: auto; /* Maintains aspect ratio */
@@ -33,14 +36,14 @@ header {
 h2 {
     font-weight: bold;
 }
+
 .content-section {
     margin: 20px;
 }
-
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    text-align: center;
+   
 }
 
 nav ul li {
@@ -53,6 +56,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
 }
+
 .hero {
     background: #28a745;
     color: white;
@@ -108,41 +112,6 @@ form button:hover {
     background-color: #0056b3;
 }
 
-.products-section {
-    margin: 20px auto;
-    padding: 20px;
-}
-
-.products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 10px;
-}
-
-.product-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    text-align: center;
-}
-
-.product-card img {
-    max-width: 30%; /* Shrinks images to 80% of their container width */
-    height: auto; /* Maintains aspect ratio */
-    margin: 0 auto;
-    display: block;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.product-card h3 {
-    margin-top: 15px;
-    font-size: 1.2rem;
-    color: #007BFF;
-}
-
 footer {
     background-color: #333;
     color: white;
@@ -150,3 +119,4 @@ footer {
     padding: 10px 0;
     margin-top: 30px;
 }
+
