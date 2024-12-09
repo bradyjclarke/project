@@ -19,6 +19,9 @@ nav {
 header {
     background: #007BFF;
     padding: 1rem 0;
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; 
 }
 .image-container {
     display: flex;
@@ -43,12 +46,14 @@ h2 {
 }
 nav ul {
     list-style: none;
-    text-align: center;
-   
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flexbox for inline navigation */
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
@@ -120,13 +125,3 @@ footer {
     padding: 10px 0;
     margin-top: 30px;
 }
-3. JavaScript (scripts.js)
-javascript
-Copy code
-// Example JavaScript code for form submission or other functionality
-document.querySelector("form").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent the form from submitting normally
-
-    alert("Your message has been sent!");
-    // Add actual form submission or validation logic here
-});
