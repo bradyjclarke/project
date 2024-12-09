@@ -97,7 +97,25 @@ h2 {
 .service h3 {
     color: #007BFF;
 }
-
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between product cards */
+    padding: 20px;
+}
+.product-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product-card img {
+    max-width: 100%; /* Image will not exceed its container width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    margin-bottom: 15px; /* Space between image and text */
+}
 footer {
     background-color: #333;
     color: white;
